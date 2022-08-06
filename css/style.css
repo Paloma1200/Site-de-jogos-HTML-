@@ -1,0 +1,76 @@
+.cabecalho-imagem-logo {
+    position: relative;
+    top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.cabecalho-menu-carrinho {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+}
+
+.cabecalho-login {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.cabecalho-pesquisa {
+    position: absolute;
+    left: 30px;
+    top: 127px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 12px;
+}
+
+.botao-caixa-pesquisa {
+    position: absolute;
+    left: 95px;
+    top: 120px;
+    width: 400px;
+    height: 30px;
+}
+
+.conteudo-banner {
+    align-items: center;
+    position: relative;
+}
+
+.container .conteudo-segundo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    font-size: 15px;
+    position: relative; 
+}
+
+.conteudo-terceiro h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    position: relative;
+    text-align: start;
+    font-size: 20px;
+}
+
+body {
+    background:black;
+    color: #fff;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.container {
+    padding:1%;
+}
+
+body {
+        padding: 0 2em;
+}

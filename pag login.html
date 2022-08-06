@@ -7,32 +7,28 @@
         <meta charset=utf-8>
         <meta name="viewport" content="Width=device-width, initial-scale=1.0">
         <title>Meu primeiro site</title>
+        <link rel="stylesheet" type="text/css" href="css/stylepag.css">
    
     </head>
        
-        <header>
-           
-            <img src="#"> <h1>GAME MANIA</h1>
+        <header class="cabecalho">
+            <img class="cabecalho-imagem-logo" src="imagem/Logo.png">
             <br><br>
             <nav id="menu">
 
         </header>
-
-<body>
+            
+        <body>
     
-    <form action="#" method="post">
-    <label for="email">E-mail:</label>
-    <input type="email" id="email" name="email" maxlength="40" required autocomplete>
-    <label for="exemplo">Exemplo</label>
-    <input type="email" id="exemplo" name="exemplo" value="example@example.com" readonly>
-    <!-- readonly: Atributo booleano (true or false), no qual o usuário não pode alterar o valor do controle. Ele é utilizado com o atributo value, em que recebe um valor e fica bloqueado para alteração de dados. -->
-    <br><br>
-    <label for="senha">senha:</label>
-    <input type="senha" id="senha" name="senha" q maxlength="40" required autocomplete>
+            <form action="#" method="post">
+            <label class="email">E-mail:</label>
+            <input class="email" id="email" name="email" maxlength="40" required autocomplete>
+            <br><br>
     
-    <br><br>
-    <div style="float:left">
-        <input type="submit" id="btn-enviar" name="btn-enviar" required >
-    </div>
+            <label class="senha">senha:</label>
+            <input class="senha" id="senha" name="senha" q maxlength="40" required autocomplete>
+            <br><br>
 
-</body>
+            <div class=" container">
+                <input type="submit" value="Enviar">
+        </body>
